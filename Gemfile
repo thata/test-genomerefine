@@ -37,6 +37,8 @@ gem 'jquery-rails'
 # gem 'debugger'
 #
 gem 'tconf', git: 'git@github.com:ynlab/tconf.git', branch: 'migap'
+gem 'tauth-client', :git => 'git@github.com:ynlab/tauth-client.git'
+
 gem "mongoid", "~> 3.1.0"
 
 gem 'rdf-raptor', :git => 'https://github.com/hidenba/rdf-raptor.git', :require => 'rdf/raptor'

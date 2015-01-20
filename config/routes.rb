@@ -1,4 +1,6 @@
 TestGenomerefine::Application.routes.draw do
+  mount Tconf::Engine => '/genomerefine', :as => 'tconf'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
