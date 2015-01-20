@@ -23,6 +23,14 @@ GIT
       state_machine
       uuid
 
+GIT
+  remote: https://github.com/hidenba/rdf-raptor.git
+  revision: f6e87b8185ce1f8a8adb9ef28a9549462bacb9a6
+  specs:
+    rdf-raptor (1.0.1)
+      ffi (>= 1.0)
+      rdf (>= 1.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -84,6 +92,7 @@ GEM
       nokogiri (>= 1.4.3)
     erubis (2.7.0)
     execjs (2.2.2)
+    ffi (1.9.6)
     grit (2.5.0)
       diff-lcs (~> 1.1)
       mime-types (~> 1.15)
@@ -223,7 +232,9 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
+  mongoid (~> 3.1.0)
   rails (= 3.2.21)
+  rdf-raptor!
   sass-rails (~> 3.2.3)
   tconf!
   uglifier (>= 1.0.3)
